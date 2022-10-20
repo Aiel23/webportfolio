@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri:500');
+*:before
+*: after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+nav {
+	background-color: rgb(50, 50, 50, .90);
+}
+
+
+
+a {
+	color: white;
+	position: relative;
+	font-family: 'poppins', sans-serif;
+	font-family: 18px;
+	letter-spacing: 0.5px;
+
+}
+
+
+a:after {
+	content: "";
+	position: absolute;
+	background-color: #ff3c78;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+a:hover {
+	color: green;
+}
+
+a:hover:after {
+	width: 100%;
+
+
+}
+/*end of navbar*/
+
+.hero {
+	background-color: black;
+	background-image: url(./images/bg2.png);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+}
+
+#aboutme {
+	background-color: black;
+	background-image: url(./images/bg3.png);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+}
+#studies {
+	background-color: black;
+	background-image: url(./images/bg4.png);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+}
+
+
+
+/*img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}*/
