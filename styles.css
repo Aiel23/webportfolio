@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Calibri:500');
+*  {
+	font-family: 'Questrial', sans-serif;
+}
 *:before
 *: after {
 	padding: 0;
@@ -16,7 +19,7 @@ nav {
 a {
 	color: white;
 	position: relative;
-	font-family: 'poppins', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-family: 18px;
 	letter-spacing: 0.5px;
 
@@ -44,6 +47,11 @@ a:hover:after {
 }
 /*end of navbar*/
 
+#profpic {
+		box-shadow: 0px 11px 15px 0px;
+		color: black;
+}
+
 .hero {
 	background-color: black;
 	background-image: url(./images/bg2.png);
@@ -51,30 +59,164 @@ a:hover:after {
 	padding-bottom: 200px;
 	background-repeat: no-repeat;
 	background-size: fixed;
+	background-attachment: fixed;
 }
+
+
+#about {
+	background-color: dark;
+} 
+
 
 #aboutme {
-	background-color: black;
-	background-image: url(./images/bg3.png);
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+
+}
+
+#projects{
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-repeat: no-repeat;
 	background-size: fixed;
 }
-#studies {
-	background-color: black;
-	background-image: url(./images/bg4.png);
+
+
+#contact{
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-repeat: no-repeat;
 	background-size: fixed;
 }
 
+#contactbox{
+	background-color: rgb(50, 50, 50, .90);
+	background-repeat: no-repeat;
+	background-size: fixed;
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 20px;
+	
+}
+
+#forms {
+	border-radius: 10px;
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+
+}
+
+#gmap {
+	border-radius: 10px;
+	color: black;
+}
+
+#footer {
+	background-color: rgb(50, 50, 50, .90);
+}
+
+#projbg1{
+	background-color: rgb(0, 255, 0, .3);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+	
+}
+
+#projbg2{
+	background-color: rgb(255, 0, 0, .3);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+}
+
+#projbg3{
+	background-color: rgb(0, 0, 255, .3);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+}
 
 
-/*img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}*/
+#cardbg1 {
+	background-color: rgb(255, 3, 0, .3);
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+}
+
+#cardbg2 {
+	background-color: rgb(255, 204, 0, .3);
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+}
+
+#cardbg3 {
+	background-color: rgb(0, 255, 0, .3);
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+}
+
+#cardbg4 {
+	background-color: rgb(0, 0, 255, .3);
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+
+}
+
+#cardimg {
+		box-shadow: 0px 20px 25px 0px;
+  	color: black;
+  	border-radius: 8px;
+}
+
+#dropdown {
+	background: none;
+}
+
+
+#tools {
+	background-color: black;
+	background-image: url(./images/bg1.png);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: fixed;
+
+}
+
+#othertools1 {
+	background-color: rgb(0, 0, 255, .3);
+	box-shadow: 0px 20px 25px 0px;
+	color: black;
+	border-radius: 8px;
+
+}
+
+#othertools2 {
+	background-color: rgb(255, 3, 0, .3);
+	
+	color: black;
+	border-radius: 8px;
+}
+
+#logo1 {
+	background-color: white
+}
